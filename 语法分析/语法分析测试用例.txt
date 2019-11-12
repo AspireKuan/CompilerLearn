@@ -1,0 +1,43 @@
+1.
+E A T B F
++ * ( ) id
+E->TA A->+TA|@ T->FB B->*FB|@ F->(E)|id
+E
+id+id*id
+
+2.
+E A F
+e a f
+E->e|@ A->a|@ F->EA
+E
+
+3.
+S A B
+a b c
+S->aBc|bAB A->aAb|b B->b|@
+S
+
+4.
+S A B D
+a b c d e
+S->aAbDe|d A->BSD|e B->SAc|cD|@ D->Se|@
+S
+
+5.
+S A B
+a b c
+S->aBc|bAB A->aAb|b B->b|@
+S
+
+6.
+A B
+a e d
+A->aABe|Ba B->dB|@
+S
+baabbb
+
+7.
+P X Y
+begin d ; end s
+P->begind;Xend X->d;X|sY Y->;sY|@
+P
