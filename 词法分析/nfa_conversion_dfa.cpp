@@ -1,4 +1,3 @@
-#include "pch.h"
 #include"nfa_conversion_dfa.h"
 #include<stdio.h>
 #include<string.h>
